@@ -365,7 +365,7 @@ select {
         transition: transform 500ms ease-in-out;
     }
 
-    .primary-navigation[data-visible="true"] {
+    .mynav #hidden {
         transform: translateX(0);
     }
 
@@ -383,7 +383,7 @@ select {
         aspect-ratio: 1;
         border: 0;
     }
-    .mobile-nav-toggle[area-expanded="true"] {
+    .mynav #navBtn {
         background-image: url(../../images/icon-close.svg);
     }
 
@@ -433,14 +433,14 @@ select {
 }
 
 
-.primary-navigation a {
+/* .primary-navigation a {
     text-decoration: none;
 }
 
 .primary-navigation Link>span {
     font-weight: 700;
     margin-right: .5em;
-}
+} */
 
 .underline-indicators>* {
     cursor: pointer;

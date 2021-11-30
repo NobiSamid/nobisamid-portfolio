@@ -7,7 +7,7 @@ export default function Contact() {
             backgroundColor: '#000428',
             backgroundImage: 'linear-gradient(to right, #000428, #004e92)', height: '100vh'
         }}>
-            <h1><Navigation></Navigation></h1>
+            <h3><Navigation></Navigation></h3>
 
             <h3>This is contact page</h3>
             <form action="https://formsubmit.co/nobisamid@gmail.com" method="POST">
