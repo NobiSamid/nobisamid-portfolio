@@ -1,22 +1,18 @@
 .all-skills{
     width: 80%;
-    /* margin: auto; */
+    margin: auto;
     padding:3rem;
     box-shadow: 0 15px 30px 0 whitesmoke;
     border-radius: 3rem;
 }
 .info{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     color: blanchedalmond;
 }
 .progressBar{
-    width: 100%;
-}
-
-.bar{
     background:violet;
     display: block;
     height: 1rem;
@@ -26,9 +22,9 @@
     box-shadow: 0 0 10px #2187e7b3;
 }
 
-.bar span{
-    height: 0.95rem;
-    border-radius: 0.95rem;
+.progressBar span{
+    height: 1rem;
+    border-radius: 1.4rem;
     float: left;
     background:black;
     position: relative;
@@ -37,28 +33,21 @@
     width: 86%;
     animation: html 3s;
 }
-.candidate .progressBar .bar span::before{
-    position: absolute;
-    content: "";
-    right: 0;
-    height: 0;
-    bottom: 10px;
-    width: 0;
-    border: 7px solid red;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color:white;
-}
-.progressBar .bar span::after{
+.progressBar span::after{
     position:absolute;
-    content: "40%";
-    padding: 3px;
-    right: -50px;
-    top:-10px;
+    right: -30px;
+    top: -2px;
     color:black;
-    font-size: x-large;
-    float: right;
-    z-index: 1;
+    font-size: small;
+}
+.progressBar .html::after{
+content: '86%';
+}
+.progressBar .css::after{
+content: '90%';
+}
+.progressBar .js::after{
+content: '80%';
 }
 .css{
     width: 90%;
@@ -92,4 +81,8 @@
     100%{
         width: 80%;
     }
+}
+
+.html-logo{
+   
 }
