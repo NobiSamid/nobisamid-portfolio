@@ -5,20 +5,20 @@ import Navigation from '../navigation/Navigation';
 import Banner from '../banner/Banner';
 import Projects from '../projects/Projects';
 import Skills from '../skills/Skills';
+import EducationLine from '../education/EducationLine';
 
 export default function Home() {
     return (
         <div className="myhome" container grid style={{
-            gap: "5rem", height: '100vh', backgroundColor: '#000428',
+            gap: "5rem", backgroundColor: '#000428',
             backgroundImage: 'linear-gradient(to right, #000428, #004e92)'
         }} >
             <h3><Navigation></Navigation></h3>
-            <Banner></Banner>
-            <Resume></Resume>
-            <Skills></Skills>
+            <Banner></Banner> <br /><br /><br />
+            <Resume></Resume><br />
+            <Skills></Skills><br /><br /><br />
+            <EducationLine /><br /> <br /><br />
             <Projects></Projects>
-            <h3>home page</h3>
-
         </div>
     )
 }

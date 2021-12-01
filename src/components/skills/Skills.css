@@ -2,8 +2,15 @@
     width: 80%;
     margin: auto;
     padding:3rem;
-    box-shadow: 0 15px 30px 0 whitesmoke;
+    box-shadow: 0 10px 10px 0 whitesmoke;
     border-radius: 3rem;
+}
+.candidate{
+    display: block;
+    border-radius: 3rem;
+    box-shadow: 0 3px 3px 0 rgba(245, 245, 245, 0.219);
+    margin: 3rem;
+    padding: 3rem;
 }
 .info{
     display: flex;
@@ -83,6 +90,8 @@ content: '80%';
     }
 }
 
-.html-logo{
-   
+.tech-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

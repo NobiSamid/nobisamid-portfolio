@@ -148,11 +148,11 @@ select {
     gap: var(--gap, 1rem);
 }
 
-.container {
+/* .container {
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 60rem;
-}
+} */
 
 
 /* Screen reader only */
@@ -479,4 +479,18 @@ select {
 
 .dot-indicators>[aria-selected="true"] {
     background-color: hsl( var(--clr-white) / 1);
+}
+
+.dp{
+    width: 100%;
+    border-radius: 50%;
+}
+.banner-content{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+.half{
+    width: 50%;
 }

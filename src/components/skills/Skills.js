@@ -18,56 +18,63 @@ import { ReactComponent as Stripe } from '../../images/icons8-stripe.svg';
 export default function Skills() {
     return (
         <div>
-            <h2>Skillsssssssss</h2>
+
             <div className="all-skills">
+                <h1>Skillsssssssss</h1>
                 <div className="candidate">
                     <div className="info">
-                        <h3 className="name">Front-End</h3>
+                        <h2 className="name">Front-End</h2><br />
                         <h5>Working skill</h5>
                     </div>
                     <div className="progressBar">
                         <span className="html"></span>
                     </div>
-                    <div>
-                        <h4>Technologies</h4>
-                        <Html style={{ height: '5rem', width: 'auto' }} />
-                        <Css style={{ height: '5rem', width: 'auto' }} />
-                        <Js style={{ height: '5rem', width: 'auto' }} />
-                        <Reactlogo style={{ height: '5rem', width: 'auto' }} />
-                        <Bootstrap style={{ height: '5rem', width: 'auto' }} />
-                        <Material style={{ height: '5rem', width: 'auto' }} />
+                    <div className="tech-logo">
+                        <br /><h4 className="info">Technologies</h4>
+                        <div>
+                            <Html style={{ height: '5rem', width: 'auto' }} />
+                            <Css style={{ height: '5rem', width: 'auto' }} />
+                            <Js style={{ height: '5rem', width: 'auto' }} />
+                            <Reactlogo style={{ height: '5rem', width: 'auto' }} />
+                            <Bootstrap style={{ height: '5rem', width: 'auto' }} />
+                            <Material style={{ height: '5rem', width: 'auto' }} />
+                        </div>
                     </div>
                 </div>
                 <div className="candidate">
                     <div className="info">
-                        <h3 className="name">Back-End</h3>
+                        <h2 className="name">Back-End</h2><br />
                         <h5>Working skill</h5>
                     </div>
                     <div className="progressBar">
                         <span className="css"></span>
                     </div>
-                    <div>
-                        <h4>Technologies</h4>
-                        <Node style={{ height: '5rem', width: 'auto' }} />
-                        <Mongo style={{ height: '5rem', width: 'auto' }} />
-                        <Express style={{ height: '3.5rem', width: 'auto' }} />
+                    <div className="tech-logo">
+                        <br /><h4 className="info">Technologies</h4>
+                        <div>
+                            <Node style={{ height: '5rem', width: 'auto' }} />
+                            <Mongo style={{ height: '5rem', width: 'auto' }} />
+                            <Express style={{ height: '3.5rem', width: 'auto' }} />
+                        </div>
                     </div>
                 </div>
                 <div className="candidate">
                     <div className="info">
-                        <h3 className="name">Front-End</h3>
+                        <h2 className="name">Tools</h2><br />
                         <h5>Working skill</h5>
                     </div>
                     <div className="progressBar">
                         <span className="js"></span>
                     </div>
-                    <div>
-                        <h4>Technologies</h4>
-                        <Firebase style={{ height: '5rem', width: 'auto' }} />
-                        <Git style={{ height: '5rem', width: 'auto' }} />
-                        <Vs style={{ height: '5rem', width: 'auto' }} />
-                        <Heroku style={{ height: '5rem', width: 'auto' }} />
-                        <Stripe style={{ height: '5rem', width: 'auto' }} />
+                    <div className="tech-logo">
+                        <br /><h4 className="info">Technologies</h4>
+                        <div>
+                            <Firebase style={{ height: '5rem', width: 'auto' }} />
+                            <Git style={{ height: '5rem', width: 'auto' }} />
+                            <Vs style={{ height: '5rem', width: 'auto' }} />
+                            <Heroku style={{ height: '5rem', width: 'auto' }} />
+                            <Stripe style={{ height: '5rem', width: 'auto' }} />
+                        </div>
                     </div>
                 </div>
             </div>
