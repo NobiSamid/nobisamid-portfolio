@@ -16,9 +16,9 @@ export default function Home() {
             <h3><Navigation></Navigation></h3>
             <Banner></Banner> <br /><br /><br />
             <Resume></Resume><br />
-            <Skills></Skills><br /><br /><br />
+            <Skills></Skills><br /><br /><br /><br /> <br /><br />
+            <Projects></Projects><br /> <br /><br />
             <EducationLine /><br /> <br /><br />
-            <Projects></Projects>
         </div>
     )
 }
